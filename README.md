@@ -7,7 +7,7 @@
 
 ```html
 $ npm install vue-lazyload-progressive
-```
+```html
 
 # Requirements
 
