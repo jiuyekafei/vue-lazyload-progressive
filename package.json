@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "vue-lazyload-progressive",
   "author": "zhangyang",
-  "private": true,
+  "license": "MIT",
+  "main": "src/progressive/index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
