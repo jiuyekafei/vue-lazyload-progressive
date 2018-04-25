@@ -15,7 +15,8 @@ $ npm install vue-lazyload-progressive
 
 ```html
 import progressive from 'vue-lazyload-progressive'
-import './progressive/progressive.css'
+import 'vue-lazyload-progressive/src/progressive/progressive.css'
+
 Vue.use(progressive);
 
 <span class="progressive" date-src="big.jpg">
