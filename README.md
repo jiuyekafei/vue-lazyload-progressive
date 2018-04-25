@@ -7,7 +7,7 @@
 
 ```html
 $ npm install vue-lazyload-progressive
-```html
+```
 
 # Requirements
 
@@ -21,7 +21,7 @@ Vue.use(progressive);
 <span class="progressive" date-src="big.jpg">
     <img v-lazyprogressive src="small.jpg" class="preview">
 </span>
-```html
+```
 
 
 # License
