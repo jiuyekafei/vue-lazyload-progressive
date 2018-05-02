@@ -1,10 +1,10 @@
 {
   "name": "vue-lazyload-progressive",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue-lazyload-progressive",
   "author": "zhangyang",
   "license": "MIT",
-  "main": "dist/static/js/lazyloadProgressive.js",
+  "main": "./src/progressive/index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
