@@ -15,7 +15,7 @@ $ npm install vue-lazyload-progressive
 
 ```html
 import progressive from 'vue-lazyload-progressive'
-import 'vue-lazyload-progressive/dist/static/lazyloadProgressive.css'
+import 'vue-lazyload-progressive/src/progressive/progressive.css'
 
 Vue.use(progressive);
 
