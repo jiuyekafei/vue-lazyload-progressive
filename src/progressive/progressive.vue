@@ -1,7 +1,5 @@
 <template>
-	<div class="pg">
-		11
-	</div>
+	<div class="pg"></div>
 </template>
 
 <script>

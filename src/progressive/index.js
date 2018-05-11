@@ -3,11 +3,11 @@ import Progressive from './progressive'
 const $lazyload = new Set();
 const $winHeight = window.innerHeight;
 
-window.onscroll = function(){
+window.addEventListener('scroll', function (e) {
 	$lazyload.forEach((fn)=>{
 		fn();
 	})
-}
+}, true);
 
 const checkview = (elm)=>{
 	const elmInfo = elm.getBoundingClientRect();
